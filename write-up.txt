@@ -1,0 +1,2 @@
+1. Variabel cors berisi url service cors anywhere. Service ini menyediakan header CORS untuk setiap request yang dibuat melalui service tersebut. Tanpa header CORS request ke heroku harus melalui domain yang sama. Tanpa service CORS kita tidak bisa melakukan request ke heroku secara langsung
+2. Fungsi tersebut berguna untuk mengubah map json berbentuk {..., poliRujukan.id:id, statusPasien.id:id, ...} menjadi {..., poliRujukan:{id:id}, statusPasien:{id:id}, ...} tanpa fungsi ini bentuk body akan salah
